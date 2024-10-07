@@ -1,0 +1,11 @@
+Para descobrir qual cadeira houve a troca de alunos e qual a disciplina de cada um, o professor pode usar o padrão original de organização. Como os alunos estavam organizados alternadamente entre Português (P) e Matemática (M), qualquer quebra nesse padrão indicará a troca.
+
+Imagine que o padrão inicial seja algo como: 1P, 2M, 3P, 4M, 5P, 6M, ... até 25 alunos.
+
+Com a adição de mais 11 alunos, o padrão se manteria alternado: 26P, 27M, 28P, 29M, ... até 36 alunos.
+
+Se ao voltar, ele vê dois alunos P ou dois alunos M seguidos, ele sabe que houve uma troca.
+
+Por exemplo, se ele vê: 1P, 2M, 3P, 4M, 5P, 6M, 7P, 8M, 9P, 10P ...
+
+Ele sabe que a cadeira 10 deveria ser um aluno que gosta de Matemática (M), mas está ocupada por um aluno que gosta de Português (P), e vice-versa para a cadeira original da pessoa que gosta de Matemática. Assim, ele identifica onde a troca ocorreu e as preferências de disciplina de cada aluno.
